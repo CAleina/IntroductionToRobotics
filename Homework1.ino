@@ -16,7 +16,7 @@ void setup() {
 }
 
 void loop() {
-  // reading the values from the potentiometer for each of the RGB lights
+  // reading the voltage from the potentiometer for each of the RGB lights
   sourceRedValue = analogRead(sourceRedPin);
   sourceGreenValue = analogRead(sourceGreenPin);
   sourceBlueValue = analogRead(sourceBluePin);
