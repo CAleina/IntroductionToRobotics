@@ -30,6 +30,4 @@ void loop() {
   analogWrite(redPin, sourceRedValue);
   analogWrite(greenPin, sourceGreenValue);
   analogWrite(bluePin, sourceBlueValue);
-
-
 }
