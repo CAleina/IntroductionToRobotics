@@ -41,4 +41,24 @@ Below are details about homeworks such as requirements, implementation details, 
   
   Code for this homework can be found in Homework2.ino.
   
+  # Homework 3
+  
+  Requirements:
+1. Hardware:  1  7-segment  display,  1  joystick,  resistors  and  wires  (perlogic)
+2. Code: 
+  State  1 (default,  but  also  initiated  after  a  button  press  in  State2):  Current  position  blinking. Can use the joystick to move from one position to  neighbors. Short pressing the button toggles state 2. Long pressing the button in state 1 resets the entire display byturning all the segments OFF and moving the current position to thedecimal point.
+  State  2 (initiated  after  a  button  press  in  State  1): The current segment stops blinking, adopting the state of the segment before selection (ON or OFF). Toggling the X (or Y, you chose) axis should change the segment state from ON to OFF or from OFF to ON. Clicking the joystick should save the segment state and exit back tostate 1.
+  Long pressing the button to reset should only be available in State 1.
+  
+  Pictures:
+  
+  ![WhatsApp Image 2022-11-09 at 23 51 39](https://user-images.githubusercontent.com/62470536/200949870-dfa4901e-15da-452e-8b23-ddd81bda899c.jpg)   ![WhatsApp Image 2022-11-09 at 23 51 38](https://user-images.githubusercontent.com/62470536/200949888-b227de74-3229-4a07-a8a1-d5247caf3215.jpg)
+
+  Video of functionality: https://youtu.be/H0Sy8HvQvYk
+  
+  Code for this homework can be found in Homeowork3.ino.
+  
+    
+    
+  
   
