@@ -58,7 +58,21 @@ Below are details about homeworks such as requirements, implementation details, 
   
   Code for this homework can be found in Homeowork3.ino.
   
+  # Homework 4
+  
+  Requirements:
+  1. Hardware: a joystick, a 4 digit 7-segment display, a 74hc595 shift register
+  2. Code:
+    State 1: You can use a joystick axis to cycle through the 4 digits; Using the other axis does nothing. A blinking decimal point shows the current digit position.  When pressing the button, you lock in onthe selected digit and enter the second state.
+    State 2: In this state, the decimal point stays always on, no longer blinking and you can no longer use the axis to cycle through the  4  digits. Instead, using  the other  axis,  you  can increment or decrement the number on the current digit IN HEX. Pressing the button again returns you to the previous state. Also, keep in mind that when changing the number, you must increment it for each joystick movement - it should  notwork continuosly increment if you keep the joystick in one position.
+    Reset:  Toggled by long pressing the button only in the first state. When resetting, all the digits go back to 0 and the current position is set to the first digit, in the first state.
     
+   Pictures:
     
+![WhatsApp Image 2022-11-16 at 16 22 46](https://user-images.githubusercontent.com/62470536/202209009-eb5fa8f7-c995-4538-8f01-473bf980bb6b.jpg) ![WhatsApp Image 2022-11-16 at 16 22 46 (1)](https://user-images.githubusercontent.com/62470536/202209064-600387ad-3d34-4edf-ad32-b4c891203262.jpg)
+
+   Video of functionality: https://youtu.be/eduu_dPamiM
+    
+   Code for homework can be found in Homework4.ino.
   
   
